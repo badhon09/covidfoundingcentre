@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.navbar{
+    /*box-shadow: 2px 2px 12px rgba(0,0,0,0.2);*/
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    
+}
+.header-menu .navbar-brand{
+    padding: 5px 35px;
+    
+    
+} 
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.btn-log{
+    padding-right: 20px;
+}
+.header-menu .navbar-nav{
+    padding: 5px 35px;
+    
+    
+} 
+.nav-link:hover{
+    color: blue;
+}
+.header-menu .nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/*about*/
+
+.about{
+    height: 500px;
+	background-image: url(../images/fundbackpic.jpg);
+	background-size: cover;
+	background-position: center;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+	display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+.about-text-area{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.about-text-area h1{
+    color: white;
+}
+.about img{
+    margin-left: 80px;
+}
+
+.feature-funds{
+    background-image: url(../images/covid.jpg);
+	background-size: cover;
+	background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    padding-top: 3em;
+
+   
+}
+.feature-funds h2{
+    color: white;
+}
+
+.foot{
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+	
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+
+    padding-top: 3em;
+
+}
+.foot h5{
+    color: white;
+}
+.address-text{
+    color: white;
+}
+
+
+
+.cardrow{
+    justify-content: center;
+}
+
+.card{
+   margin: 10px;
+}
