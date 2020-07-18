@@ -22,6 +22,9 @@
 .navbar-nav .nav-item .nav-link{
     color: white;
 }
+.nav-item .button{
+    margin-left: 10px;
+}
 .btn-log{
     padding-right: 20px;
 }
